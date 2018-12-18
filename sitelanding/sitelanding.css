@@ -1,0 +1,56 @@
+body, h1, p {
+    margin: 0;
+}
+
+.landingcontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.frontwelcome {
+    text-align: center;
+}
+ 
+
+.frontwelcome a {
+    height: 250px;
+    width: 780px;
+    display: inline-block;
+}
+
+.frontwelcome img {
+    height: 250px;
+    width: 780px;
+    padding: 10px;
+    margin: 10px;
+}
+
+main {
+    position: relative;
+    text-align: center;
+}
+
+.portraitcontainer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portraitcontainer img {
+    width: 75px;
+    height: 75px;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.portraitcontainer div a {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+}
+
+.portraitcontainer ~ p {
+    padding: 20px;
+}
