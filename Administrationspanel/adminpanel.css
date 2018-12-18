@@ -1,0 +1,42 @@
+body, h1, h2, p {
+    margin: 0;
+
+}
+
+.adminhead, main {
+    background-color: gray;
+}
+
+.adminhead {
+max-width: 50%;
+margin: 0 auto;
+text-align: center;
+}
+
+.adminhead img {
+    width: 50%;
+}
+
+.panelcontainer {
+    max-width: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.paneloption {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 5%;
+}
+
+.paneloption img {
+    width: 100%;
+    display: inline-block;
+
+}
+
+.paneloption p {
+    text-align: center;
+    font-size: 18px;
+}
