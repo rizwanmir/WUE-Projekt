@@ -1,0 +1,80 @@
+footer {
+    width: 100%;
+    background-color: gray;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.container>div {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+}
+
+.footerSection h3 {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.footerSection a {
+    color: darkblue;
+    margin-top: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.footerSection a:hover {
+    text-decoration: underline;
+}
+
+.footerSection {
+    padding-top: 30px;
+    padding-right: 5%;
+    margin-left: 20px;
+}
+
+.socialSection img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.footerSection img {
+    margin-left: 30px;
+    height: 50px;
+    width: 55px;
+    border-radius: 3px;
+}
+
+.footerSection p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.socialSection {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.socialSection a {
+    width: 35px;
+    height: 35px;
+}
+
+.copyrightSection {
+    padding-top: 3px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.copyrightSection p {
+    color: #eee;
+}
+
+@media (max-width: 730px) {
+    footer {
+        height: 500px;
+    }
+}
