@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+#container {
+
+    width: 1200px;
+    height: 800px;
+    background-color: rgb(59, 59, 59);
+    padding: 0 auto;
+    margin: 0px;
+    position: absolute;
+}
+
+
+
+#picture {
+
+    display: flex;
+position: absolute;
+left: 50px;
+top: 98px;
+    height: 400px;
+    width:400px;
+    background-color: black;
+}
+
+#product-details {
+    display: block;
+    position: absolute;
+    right:40px;
+    bottom:180px;
+    height: 640px;
+    width:500px;
+    background-color: rgb(209, 219, 219);
+    padding: 20px;
+}
+
+
+
+span {
+
+    color: green;
+}
+
+#buttons {
+
+    margin: 10px;
+ 
+}
+    
+
+
