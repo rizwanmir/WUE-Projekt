@@ -1,0 +1,155 @@
+/* Mostly used in headernav css*/
+nav {
+    background-color: lightgray;
+
+}
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    text-align: center;
+    border-top: 2px solid black;
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: gray;
+    height: 100px;
+    border: 2px solid black;
+}
+
+/*Body&Co*/
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(85,85,85);
+    background: #fff;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0px;
+}
+p {
+    margin: 0;
+    text-align: left;
+    padding: 10px 0px;
+}
+.titlearea {
+  height: 60px;
+}
+.maincontainer {
+  margin-right: 10px;
+  margin-left: 25px;
+  font: 12px "Helvetica";
+  min-height: 600px;
+}
+.column {
+  float: left;
+}
+.center{
+  margin : 0  auto;
+}
+.onethird {
+  width: 34%;
+}
+.twothird {
+  width: 66%;
+}
+.contact {
+  border: 1px solid #ddd;
+	padding: 10px 10px;
+	outline: none;
+	overflow: hidden;
+	font: 12px "Helvetica";
+	color: #000;
+	margin: 0;
+	width: 400px;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	background: #bbb;
+}
+
+/* Mostly used in footer */
+footer {
+    width: 100%;
+    background-color: gray;
+    height: 300px;
+    margin-top: 30px;
+}
+.container>div {
+    flex: 1;
+}
+.container {
+    display: flex;
+}
+.footerSection h3 {
+    margin-bottom: 5px;
+    color: #fff;
+}
+.footerSection a {
+    color: darkblue;
+    margin-top: 5px;
+    display: block;
+    text-decoration: none;
+}
+.footerSection a:hover {
+    text-decoration: underline;
+}
+.footerSection {
+    padding-top: 30px;
+    padding-right: 5%;
+    margin-left: 20px;
+}
+.socialSection img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+.footerSection img {
+    margin-left: 30px;
+    height: 50px;
+    width: 55px;
+    border-radius: 3px;
+}
+.footerSection p {
+    font-size: 14px;
+    color: #fff;
+}
+.socialSection {
+    margin-top: 50px;
+    text-align: center;
+}
+.socialSection a {
+    width: 35px;
+    height: 35px;
+}
+.copyrightSection {
+    padding-top: 3px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.copyrightSection p {
+    color: #eee;
+}
+
+@media (max-width: 730px) {
+    footer {
+        height: 250px;
+    }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>RAMVERK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../main.css">
+  <link rel="stylesheet" href="kasa.css" type="text/css">
+</head>
+
+<body>
+    <div class="kasaHeader">
+        <h1>Kasa</h1>
+    </div>
+    <div class="kasaContainer">
+        <section class="kasaMain">
+            <div class="kundAdress">
+                <h2>Kund Uppgifter</h2>
+                <form>
+                    <label for="nämn"><b>För och efternamn</b></label>
+                    <input type="text" placeholder="Skriv in ditt för och efternamn" name="nämn" required>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Skriv in ditt email" name="email" required>
+                    <label for="adress"><b>Adress</b></label>
+                    <input type="text" placeholder="Skriv in ditt address" name="adress" required>
+                    <label for="postkod"><b>Postkod</b></label>
+                    <input type="number" placeholder="Postkod" name="postkod" required>
+                    <label for="stad"><b>Stad</b></label>
+                    <input type="text" placeholder="Skriv in ditt stad" name="stad" required>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Leverantor address samma som address
+                    </label>
+
+                    <button type="submit">Försätta till checkout</button>
+
+                </form>
+
+            </div>
+            <div class="kasaPayment">
+                <h2>Betalning</h2>
+                <div class="paymentIcons">
+                    <img src="images/img2.png">
+                    <img src="images/img1.png">
+                    <img src="images/img3.png">
+
+
+                </div>
+                <label for="nänmkort"><b>Nämn på kortet</b></label>
+                <input type="text" placeholder="Nämn på kortet" name="nämn" required>
+
+                <label for="kortnummer"><b>Kredit kortnummer</b></label>
+                <input type="number" placeholder="1111-2222-3333-4444" name="kortnummer" required>
+                <label for="expmånad"><b>Exp Månad</b></label>
+                <input type="number" placeholder="januari" name="expmånad" required>
+                <label for="expår"><b>Exp år</b></label>
+                <input type="number" placeholder="2020" name="expår" required>
+                <label for="cvv"><b>CVV</b></label>
+                <input type="number" placeholder="111" name="cvv" required>
+            </div>
+        </section>
+        <aside class="kasaProduct">
+            <div class="productList">
+                <table>
+                    <th>Produkt</th>
+                    <th><img src="images/img4.png">4</th>
+                    <tr>
+                        <td><a href="#">Produkt 1</a></td>
+                        <td>3390:-</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Produkt 2
+                            </a></td>
+                        <td>3390:-</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Produkt 3</a></td>
+                        <td>3390:-</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Produkt 4</a></td>
+                        <td>3390:-</td>
+                    </tr>
+                    <tr>
+                        <td>Totalt</td>
+                        <td>7990:-</td>
+                    </tr>
+                </table>
+
+
+            </div>
+        </aside>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.entrances {
+    margin-top: 20px;
+    overflow: auto;
+    text-align: center;
+}
+
+.entrances > h2 {
+    text-transform: uppercase;
+    position: relative;
+}
+
+.entrances > h2::before {
+    content: "";
+    border-top: 1px solid #eeeeee;
+    display: block;
+    position: absolute;
+    top: 50%;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: -1;
+}
+
+.entrances > h2 > span {
+    background-color: #fff;
+    padding: 0 20px;
+}
